@@ -13,4 +13,7 @@ pub fn establish_connection() -> PgConnection {
 
 fn main(){
   println!("Hello, world!");
+  let database_connection = &mut establish_connection();
+  let users = schema::users::table.load::<models::User>(database_connection).expect("Error loading users");
+  println!("Displaying {} users", users.len());
 }
