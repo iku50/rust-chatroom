@@ -1,0 +1,12 @@
+/home/rick/RustProgram/rust-chatroom/backend/target/debug/deps/libasync_trait-441f7f52e600fb36.so: /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lib.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/args.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/bound.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/expand.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lifetime.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/parse.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/receiver.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/verbatim.rs
+
+/home/rick/RustProgram/rust-chatroom/backend/target/debug/deps/async_trait-441f7f52e600fb36.d: /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lib.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/args.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/bound.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/expand.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lifetime.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/parse.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/receiver.rs /home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/verbatim.rs
+
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lib.rs:
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/args.rs:
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/bound.rs:
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/expand.rs:
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/lifetime.rs:
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/parse.rs:
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/receiver.rs:
+/home/rick/.cargo/registry/src/github.com-1ecc6299db9ec823/async-trait-0.1.68/src/verbatim.rs:
