@@ -1,8 +1,14 @@
-pub mod models;
-pub mod schema;
+#[macro_use]
+extern crate diesel;
+
+pub mod db;
 
 use diesel::{PgConnection, Connection};
 use dotenv::dotenv;
+use diesel::prelude::*;
+
+use self::db::models::*;
+use self::db::schema::users::dsl::*;
 
 pub fn establish_connection() -> PgConnection {
   dotenv().ok();
@@ -12,8 +18,9 @@ pub fn establish_connection() -> PgConnection {
 }
 
 fn main(){
-  println!("Hello, world!");
   let database_connection = &mut establish_connection();
-  let users = schema::users::table.load::<models::User>(database_connection).expect("Error loading users");
-  println!("Displaying {} users", users.len());
+  let result = users.load::<User>(database_connection);
+  for user in result.unwrap() {
+    println!("{} {} {} {} {} {} {} {}", user.u_id, user.u_nickname, user.u_email, user.u_password, user.u_avatar, user.u_is_online, user.u_creattime, user.u_lastlogin);
+  }
 }

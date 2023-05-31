@@ -1,3 +1,0 @@
-cargo:rerun-if-changed=build/main.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/rick/Projects/rust-chatroom/backend/target/debug/build/typenum-16de063e650185aa/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/home/rick/Projects/rust-chatroom/backend/target/debug/build/typenum-16de063e650185aa/out/op.rs
