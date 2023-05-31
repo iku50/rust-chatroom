@@ -6,7 +6,7 @@
 
 ### 后端
 
-使用 `axum` 框架编写，使用 `tokio` 异步运行时，使用`diesel` 库操作 `PostgreSQL` 数据库。
+使用 `axum` 框架编写，使用 `tokio` 异步运行时，使用 `diesel` 库操作 `PostgreSQL` 数据库。
 
 ### 前端
 
